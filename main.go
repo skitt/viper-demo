@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 	"github.com/pmezard/go-difflib/difflib"
-	"github.com/spf13/viper"
+	"github.com/skitt/viper"
+	_ "github.com/skitt/viper/remote"
 )
 
 func main() {
